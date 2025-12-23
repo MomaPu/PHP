@@ -147,6 +147,12 @@ switch ($grade) {
         }
     }
 ?>
+
+<?php include 'header.html'; ?>
+    <h1>Home Page</h1>
+    <p>Welcome to the website.</p>
+<?php include 'footer.html'; ?>
+
 <!DOCTYPE html>
 <html>
     <body>

@@ -22,7 +22,14 @@
     $counter++;
     echo $counter;
 ?>
-
+<?php
+    $number = -5.75;
+    echo abs($number);
+    echo round($number);
+    echo pow(2, 3);
+    echo sqrt(16);
+    echo rand(1, 100);
+?>
 
 <!DOCTYPE html>
 <html>

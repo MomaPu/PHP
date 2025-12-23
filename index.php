@@ -163,6 +163,15 @@ switch ($grade) {
     // Удаление cookie (установка времени в прошлом)
     setcookie("favorite_food", "", time() - 3600, "/");
 ?>
+<?php
+    session_start();
+    // Установка данных сессии
+    $_SESSION['username'] = "SpongeBob";
+    // Чтение данных сессии
+    echo "Welcome {$_SESSION['username']}";
+    // Уничтожение сессии (выход)
+    session_destroy();
+?>
 
 
 <!DOCTYPE html>

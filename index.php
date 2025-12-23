@@ -71,6 +71,11 @@ switch ($grade) {
     echo "{$grade} is not a valid grade.";
     }
 ?>
+<?php
+    for ($i = 0; $i < 5; $i++) {
+        echo "Hello {$i}<br>";
+    }
+?>
 
 <!DOCTYPE html>
 <html>
